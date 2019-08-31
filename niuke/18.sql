@@ -31,7 +31,7 @@ WHERE e.emp_no = s1.emp_no
     AND s2.to_date = '9999-01-01'
     AND s1.salary <= s2.salary
 GROUP BY s1.emp_no
-HAVING COUNT(DISTINCT s2.salary)=2
+HAVING COUNT(DISTINCT s2.salary)= 2
 
 /*
 链接：https://www.nowcoder.com/questionTerminal/c1472daba75d4635b7f8540b837cc719?f=discussion
